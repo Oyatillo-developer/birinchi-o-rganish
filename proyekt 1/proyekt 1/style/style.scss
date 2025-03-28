@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "./page/.home";
+@import "./page/run";
+@import "./page/edit";
+@import "./page/oz";
+@import "./page/help";
+@import "./page/store";
+@import "./page/get";

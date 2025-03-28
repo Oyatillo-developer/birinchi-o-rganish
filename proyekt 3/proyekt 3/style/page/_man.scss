@@ -1,0 +1,111 @@
+.man{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    .text{
+        width: 60%;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        .buy{
+            width: 40%;
+            height: 4vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #F3F7F2;
+            h1{
+                font-size: 18px;
+                font-family: sans-serif;
+                font-weight: 400;
+                color: #153C3C;
+            }
+        }
+        h1{
+            font-size: 63px;
+            font-family: sans-serif;
+            font-weight: 400;
+            color: #172426;
+            text-align: center;
+        }
+    }
+    .img{
+        width: 80%;
+        height: 40vh;
+        background-image: url(../../img/Frame.png);
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .man{
+        width: 100%;
+        height: 75vh;
+        .text{
+            width: 80%;
+            height: 30vh;
+            h1{
+                font-size: 40px;
+            }
+            .buy{
+                width: 45%;
+                h1{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 501px) {
+    .man{
+        width: 100%;
+        height: 55vh;
+        .text{
+            width: 80%;
+            height: 20vh;
+            h1{
+                font-size: 25px;
+            }
+            .buy{
+                width: 45%;
+                h1{
+                    font-size: 9px;
+                }
+            }
+        }
+        .img{
+            width: 85%;
+            height: 30vh;
+        }
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .man{
+        width: 100%;
+        height: 55vh;
+        .text{
+            width: 80%;
+            height: 20vh;
+            h1{
+                font-size: 25px;
+            }
+            .buy{
+                width: 45%;
+                h1{
+                    font-size: 9px;
+                }
+            }
+        }
+        .img{
+            width: 85%;
+            height: 30vh;
+        }
+    }
+}

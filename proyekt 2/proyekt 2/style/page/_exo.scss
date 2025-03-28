@@ -1,0 +1,114 @@
+.exo{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .buss{
+        width: 70%;
+        height: 50vh;
+        background-image: url(../../img/Bg.png);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        .gen{
+            width: 25%;
+            height: 28vh;
+            display: flex;
+            align-items: start;
+            justify-content: space-around;
+            flex-direction: column;
+            h1{
+                font-family: sans-serif;
+                font-weight: 700;
+                font-size: 42px;
+                color: #FFFFFF;
+            }
+            p{
+                font-family: sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+            .but{
+                width: 80%;
+                height: 8vh;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                button{
+                    width: 45%;
+                    height: 5vh;
+                    border: none;
+                    border-radius: 30px;
+                    background: #F78434;
+                    color: #FFFFFF;
+                    font-family: sans-serif;
+                    font-weight: 700;
+                    font-size: 12px;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    &:nth-of-type(2){
+                        background: #FFFFFF;
+                        color: #323232;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .exo{
+        width: 100%;
+        .buss{
+            width: 80%;
+            .gen{
+                width: 30%;
+                h1{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 12px;
+                }
+                .but{
+                    width: 90%;
+                    button{
+                        width: 45%;
+                        font-size: 9px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .exo{
+        width: 100%;
+        height: 45vh;
+        .buss{
+            width: 90%;
+            height: 30vh;
+            .gen{
+                width: 35%;
+                h1{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 12px;
+                }
+                .but{
+                    width: 100%;
+                    button{
+                        width: 48%;
+                        height: 4vh;
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

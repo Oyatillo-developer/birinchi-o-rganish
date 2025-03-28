@@ -1,0 +1,142 @@
+.dad{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    .other{
+        width: 40%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        .here{
+            width: 20%;
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #F3F7F2;
+            h1{
+                font-family: sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                color: #153C3C;
+            }
+        }
+        H1{
+            font-family: sans-serif;
+            font-weight: 400;
+            font-size: 48px;
+            color: #172426;
+        }
+    }
+    .key{
+        width: 100%;
+        width: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .hero{
+            width: 48%;
+            height: 55vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 769px) {
+    .dad{
+        width: 100%;
+        height: 80vh;
+        .other{
+            height: 18vh;
+            h1{
+                font-size: 35px;
+            }
+            .here{
+                width: 25%;
+                h1{
+                    font-size: 14px;
+                }
+            }
+        }
+        .key{
+            width: 100%;
+            justify-content: space-around;
+            .hero{
+                width: 40%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 501px) {
+    .dad{
+        width: 100%;
+        height: 160vh;
+        .other{
+            width: 55%;
+            height: 14vh;
+            h1{
+                font-size: 25px;
+            }
+            .here{
+                width: 25%;
+                h1{
+                    font-size: 10px;
+                }
+            }
+        }
+        .key{
+            width: 100%;
+            height: 140vh;
+            justify-content: space-around;
+            flex-direction: column;
+            .hero{
+                width: 90%;
+                height: 70vh;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 426px) {
+    .dad{
+        width: 100%;
+        height: 160vh;
+        .other{
+            width: 55%;
+            height: 14vh;
+            h1{
+                font-size: 25px;
+            }
+            .here{
+                width: 25%;
+                h1{
+                    font-size: 10px;
+                }
+            }
+        }
+        .key{
+            width: 100%;
+            height: 140vh;
+            justify-content: space-around;
+            flex-direction: column;
+            .hero{
+                width: 90%;
+                height: 70vh;
+            }
+        }
+    }
+}

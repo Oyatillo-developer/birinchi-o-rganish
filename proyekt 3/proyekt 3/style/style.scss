@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+@import "./page/home";
+@import "./page/man";
+@import "./page/go";
+@import "./page/map";
+@import "./page/view";
+@import "./page/gen";
+@import "./page/watch";
+@import "./page/dad";
+@import "./page/align";
+@import "./page/beuty";

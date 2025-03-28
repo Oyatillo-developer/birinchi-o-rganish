@@ -1,0 +1,747 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.home img {
+  width: 20%;
+}
+.home .links {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.home .links a {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #323232;
+  font-size: 16px;
+  text-decoration: none;
+}
+.home .links a:nth-of-type(1) {
+  color: #F78434;
+}
+
+@media screen and (max-width: 769px) {
+  .home {
+    width: 100%;
+  }
+  .home .links {
+    width: 50%;
+  }
+  .home .links a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .home {
+    width: 100%;
+  }
+  .home .links {
+    width: 60%;
+  }
+  .home .links a {
+    font-size: 8px;
+  }
+}
+.app {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.app .text {
+  width: 35%;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.app .text h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #323232;
+}
+.app .text p {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #323232;
+  font-size: 16px;
+  line-height: 28px;
+}
+.app .text .btn {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.app .text .btn h1 {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #BBBBBB;
+  font-weight: 400;
+}
+.app .text .btn button {
+  width: 25%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F78434;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+.app .text .btn button:hover {
+  cursor: pointer;
+}
+.app .img {
+  width: 30%;
+}
+.app .img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 769px) {
+  .app {
+    width: 100%;
+    height: 40vh;
+  }
+  .app .text {
+    height: 40vh;
+  }
+  .app .text h1 {
+    font-size: 30px;
+  }
+  .app .text p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .app .text .btn h1 {
+    font-size: 14px;
+  }
+  .app .text .btn button {
+    width: 40%;
+    height: 5vh;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .app {
+    width: 100%;
+    height: 40vh;
+  }
+  .app .text {
+    height: 38vh;
+  }
+  .app .text h1 {
+    font-size: 17px;
+  }
+  .app .text p {
+    font-size: 10px;
+    line-height: 18px;
+  }
+  .app .text .btn h1 {
+    font-size: 7px;
+  }
+  .app .text .btn button {
+    width: 50%;
+    height: 5vh;
+    font-size: 10px;
+  }
+}
+.go {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.go img {
+  width: 80%;
+}
+
+@media screen and (max-width: 769px) {
+  .go {
+    width: 100%;
+    height: 15vh;
+  }
+}
+.run {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.run .man {
+  width: 30%;
+}
+.run .man img {
+  width: 100%;
+  height: 80vh;
+}
+.run .matn {
+  width: 25%;
+  height: 35vh;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.run .matn h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  color: #323232;
+}
+.run .matn p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+}
+.run .matn button {
+  width: 50%;
+  height: 6vh;
+  background: #F78434;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.5s;
+}
+.run .matn button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+  .run {
+    width: 100%;
+    height: 60vh;
+  }
+  .run .man img {
+    height: 60vh;
+  }
+  .run .matn {
+    height: 40vh;
+  }
+  .run .matn h1 {
+    font-size: 30px;
+  }
+  .run .matn p {
+    font-size: 10px;
+  }
+  .run .matn button {
+    width: 60%;
+    height: 5vh;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .run {
+    width: 100%;
+    height: 45vh;
+  }
+  .run .man img {
+    height: 40vh;
+  }
+  .run .matn {
+    height: 38vh;
+  }
+  .run .matn h1 {
+    font-size: 18px;
+  }
+  .run .matn p {
+    font-size: 9px;
+  }
+  .run .matn button {
+    width: 80%;
+    height: 5vh;
+    font-size: 10px;
+  }
+}
+.exo {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exo .buss {
+  width: 70%;
+  height: 50vh;
+  background-image: url(../../img/Bg.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.exo .buss .gen {
+  width: 25%;
+  height: 28vh;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.exo .buss .gen h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  color: #FFFFFF;
+}
+.exo .buss .gen p {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.exo .buss .gen .but {
+  width: 80%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.exo .buss .gen .but button {
+  width: 45%;
+  height: 5vh;
+  border: none;
+  border-radius: 30px;
+  background: #F78434;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+.exo .buss .gen .but button:hover {
+  cursor: pointer;
+}
+.exo .buss .gen .but button:nth-of-type(2) {
+  background: #FFFFFF;
+  color: #323232;
+}
+
+@media screen and (max-width: 769px) {
+  .exo {
+    width: 100%;
+  }
+  .exo .buss {
+    width: 80%;
+  }
+  .exo .buss .gen {
+    width: 30%;
+  }
+  .exo .buss .gen h1 {
+    font-size: 30px;
+  }
+  .exo .buss .gen p {
+    font-size: 12px;
+  }
+  .exo .buss .gen .but {
+    width: 90%;
+  }
+  .exo .buss .gen .but button {
+    width: 45%;
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .exo {
+    width: 100%;
+    height: 45vh;
+  }
+  .exo .buss {
+    width: 90%;
+    height: 30vh;
+  }
+  .exo .buss .gen {
+    width: 35%;
+  }
+  .exo .buss .gen h1 {
+    font-size: 20px;
+  }
+  .exo .buss .gen p {
+    font-size: 12px;
+  }
+  .exo .buss .gen .but {
+    width: 100%;
+  }
+  .exo .buss .gen .but button {
+    width: 48%;
+    height: 4vh;
+    font-size: 8px;
+  }
+}
+.stop {
+  width: 100%;
+  height: 68vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background: #F5F6FA;
+}
+.stop h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 42p;
+  color: #323232;
+}
+.stop p {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #323232;
+}
+.stop .now {
+  width: 70%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.stop .now img {
+  width: 40%;
+}
+
+@media screen and (max-width: 769px) {
+  .stop {
+    width: 100%;
+    height: 55vh;
+  }
+  .stop h1 {
+    font-size: 30px;
+  }
+  .stop p {
+    font-size: 14px;
+  }
+  .stop .now {
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 426px) {
+  .stop {
+    width: 100%;
+    height: 33vh;
+  }
+  .stop h1 {
+    font-size: 25px;
+  }
+  .stop p {
+    font-size: 10px;
+  }
+  .stop .now {
+    height: 20vh;
+  }
+}
+.do {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.do h1 {
+  font-size: 42px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #323232;
+}
+.do .last {
+  width: 100%;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  padding-left: 130px;
+}
+.do .last .with {
+  width: 50%;
+  height: 23vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.do .last .with img {
+  width: 20%;
+}
+.do .last .with h1 {
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #323232;
+}
+.do .last .with p {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #323232;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media screen and (max-width: 769px) {
+  .do {
+    width: 100%;
+    height: 50vh;
+  }
+  .do h1 {
+    font-size: 30px;
+  }
+  .do .last {
+    padding-left: 20px;
+    height: 28vh;
+  }
+  .do .last .with {
+    width: 90%;
+  }
+  .do .last .with img {
+    width: 30%;
+  }
+  .do .last .with h1 {
+    font-size: 15px;
+  }
+  .do .last .with p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .do {
+    width: 100%;
+    height: 30vh;
+  }
+  .do h1 {
+    font-size: 20px;
+  }
+  .do .last {
+    padding-left: 0;
+    height: 20vh;
+  }
+  .do .last .with {
+    width: 100%;
+    height: 16vh;
+  }
+  .do .last .with img {
+    width: 30%;
+  }
+  .do .last .with h1 {
+    font-size: 10px;
+  }
+  .do .last .with p {
+    font-size: 6px;
+  }
+}
+.abb {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.abb h1 {
+  font-size: 42px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #323232;
+  width: 30%;
+}
+.abb p {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #606060;
+  width: 20%;
+}
+
+@media screen and (max-width: 769px) {
+  .abb {
+    width: 80%;
+    height: 25vh;
+    margin-left: 70px;
+  }
+  .abb h1 {
+    font-size: 30px;
+    width: 40%;
+  }
+  .abb p {
+    font-size: 13px;
+    width: 35%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .abb {
+    width: 90%;
+    height: 15vh;
+    margin-left: 20px;
+  }
+  .abb h1 {
+    font-size: 18px;
+    width: 40%;
+  }
+  .abb p {
+    font-size: 9px;
+    width: 40%;
+  }
+}
+.hed {
+  width: 100%;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-left: 120px;
+}
+.hed .ad {
+  width: 60%;
+}
+.hed .ad img {
+  width: 100%;
+}
+.hed .ad p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  margin-top: 30px;
+}
+.hed .ad h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #323232;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 769px) {
+  .hed {
+    width: 100%;
+    height: 35vh;
+    padding-left: 70px;
+  }
+  .hed .ad {
+    width: 60%;
+  }
+  .hed .ad p {
+    font-size: 10px;
+    margin-top: 15px;
+  }
+  .hed .ad h1 {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .hed {
+    width: 100%;
+    height: 25vh;
+    padding-left: 40px;
+  }
+  .hed .ad {
+    width: 70%;
+  }
+  .hed .ad p {
+    font-size: 8px;
+    margin-top: 10px;
+  }
+  .hed .ad h1 {
+    font-size: 10px;
+    margin-top: 12px;
+  }
+}
+.six {
+  width: 100%;
+  height: 80vh;
+}
+.six img {
+  width: 100%;
+  height: 70vh;
+}
+
+.map {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.map .emm {
+  width: 20%;
+}
+.map .emm img {
+  width: 100%;
+}
+.map .the {
+  width: 10%;
+  height: 18vh;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.map .the h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  color: #323232;
+}
+.map .the p {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #323232;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 769px) {
+  .map {
+    width: 100%;
+    height: 30vh;
+  }
+  .map .the {
+    display: flex none;
+  }
+  .map .the h1 {
+    font-size: 15px;
+  }
+  .map .the p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .map {
+    width: 100%;
+    height: 20vh;
+  }
+  .map .the {
+    display: flex none;
+  }
+  .map .the h1 {
+    font-size: 10px;
+  }
+  .map .the p {
+    font-size: 6px;
+    line-height: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */

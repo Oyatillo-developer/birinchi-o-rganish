@@ -1,0 +1,135 @@
+.watch{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    .top{
+        width: 40%;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        .all{
+            width: 25%;
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #F3F7F2;
+            h1{
+                font-family: sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                color: #153C3C;
+            }
+        }
+        h1{
+            font-family: sans-serif;
+            font-weight: 400;
+            font-size: 51px;
+            color: #172426;
+        }
+    }
+    .use{
+        width: 75%;
+        height: 75vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        img{
+            width: 43%;
+            height: 80vh;
+        }
+    }
+}
+
+
+@media screen and (max-width: 769px) {
+    .watch{
+        width: 100%;
+        height: 80vh;
+        .top{
+            h1{
+                font-size: 40px;
+            }
+            .all{
+                h1{
+                    font-size: 12px;
+                }
+            }
+        }
+        .use{
+            width: 85%;
+            height: 55vh;
+            img{
+                height: 50vh;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 501px) {
+    .watch{
+        width: 100%;
+        height: 145vh;
+        .top{
+            width: 45%;
+            height: 10vh;
+            h1{
+                font-size: 20px;
+            }
+            .all{
+                h1{
+                    font-size: 10px;
+                }
+            }
+        }
+        .use{
+            width: 100%;
+            height: 130vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            img{
+                width: 80%;
+                height: 60vh;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .watch{
+        width: 100%;
+        height: 145vh;
+        .top{
+            width: 45%;
+            height: 10vh;
+            h1{
+                font-size: 20px;
+            }
+            .all{
+                h1{
+                    font-size: 10px;
+                }
+            }
+        }
+        .use{
+            width: 100%;
+            height: 130vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            img{
+                width: 80%;
+                height: 60vh;
+            }
+        }
+    }
+}
